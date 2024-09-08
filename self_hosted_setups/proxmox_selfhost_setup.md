@@ -1,5 +1,8 @@
 # After Installation
+
+```html
 1. <span style="color: orange;">Select Host</span>
+```
 
 $${\color{orange}2.}$$ Go to **Updates** > **Repositories**
 
