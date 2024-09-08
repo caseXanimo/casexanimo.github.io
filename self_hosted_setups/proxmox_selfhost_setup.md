@@ -36,7 +36,7 @@ Author:[TechnoTim](https://technotim.live/posts/first-11-things-proxmox/)
 
 ## Create ZFS
 
-<span style="color: orange;">1.</span> SSH into your ProxMox or use ***>_Shell***
+${\color{orange}1.}$ SSH into your ProxMox or use ***>_Shell***
 
 $${\color{orange}2.}$$ Type fdisk /dev/sdX  *where* ***X*** *define the letter of the drive you want to clear*
 
