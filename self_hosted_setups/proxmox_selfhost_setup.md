@@ -36,9 +36,9 @@ Author:[TechnoTim](https://technotim.live/posts/first-11-things-proxmox/)
 
 ## Create ZFS
 
-$${\color{orange}1.}$$ SSH into your ProxMox or use ***>_Shell***
+$${\color{orange}1.}$$ SSH into your ProxMox or use <b><i><font color="blue">>_Shell</font></i></b>
 
-$${\color{orange}2.}$$ Type fdisk /dev/sdX  *where* ***X*** *define the letter of the drive you want to clear*
+$${\color{orange}2.}$$ Type fdisk /dev/sdX - *where* ***X*** *define the letter of the drive you want to clear*
  - ${\color{lightgreen}2a.}$ Then use **P** for Partition.
  - ${\color{lightgreen}2b.}$ Then use **D** for Delete.
 
