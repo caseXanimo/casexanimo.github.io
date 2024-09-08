@@ -38,7 +38,7 @@ Author: [TechnoTim](https://technotim.live/posts/first-11-things-proxmox/)
 
 ${\color{orange}1.}$ SSH into your ProxMox or use `>_Shell`
 
-${\color{orange}2.}$ Type fdisk /dev/sdX - ${\color{red}where\space X\space define\space the\space letter\space of\space the\space drive\space you\space want\space to\space clear.}$
+${\color{orange}2.}$ Type fdisk /dev/sdX - ${\color{red}where\space \color{white}X\space define\space the\space letter\space of\space the\space drive\space you\space want\space to\space clear.}$
  - ${\color{lightgreen}2a.}$ Then use **P** for Partition.
  - ${\color{lightgreen}2b.}$ Then use **D** for Delete.
 
