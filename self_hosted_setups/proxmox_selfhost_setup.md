@@ -53,7 +53,7 @@ $${\color{orange}4.}$$ Select $${\color{yellow}DISKS}$$ > $${\color{yellow}ZFS}$
 $${\color{orange}5.}$$ Name your Pool.
 
 $${\color{orange}6.}$$ Select the disks you want, and apply the RAID Level.
- - $${\color{orange}6a.}$$ If not RAID then select Single Disk.
+ - $${\color{orange}6a.}$$ If you do not require any **RAID** type then select **Single Disk**.
 
 
 # [Removing ProxMox Subscription Notice](https://www.reddit.com/r/Proxmox/comments/tgojp1/removing_proxmox_subscription_notice/)
