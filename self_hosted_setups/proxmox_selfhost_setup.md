@@ -28,7 +28,7 @@ $${\color{orange}9.}$$ Ctrl+S to Save the file.
 
 $${\color{orange}10.}$$ Reload from your GUI to see the changes.
 
-$${\color{orange}11.}$$ Select Updates > Refresh wait for it to finish then >_Upgrade
+${\color{orange}11.}$ Select Updates > Refresh wait for it to finish then `>_Upgrade`
 
 
 # [STORAGE](https://technotim.live/posts/first-11-things-proxmox/#storage)
@@ -36,7 +36,7 @@ Author: [TechnoTim](https://technotim.live/posts/first-11-things-proxmox/)
 
 ## Create ZFS
 
-${\color{orange}1.}$ SSH into your ProxMox or use ${\color{lightgreen}'>_Shell'}$
+${\color{orange}1.}$ SSH into your ProxMox or use ${\color{lightblue}>_Shell}$
 
 $${\color{orange}2.}$$ Type fdisk /dev/sdX - *where* ***X*** *define the letter of the drive you want to clear*
  - ${\color{lightgreen}2a.}$ Then use **P** for Partition.
