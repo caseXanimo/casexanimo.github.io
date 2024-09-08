@@ -5,29 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProxMox - Self Host - Setup</title>
     <style>
+        /* Define a .colors class with CSS custom properties */
+        .colors {
+            --lightcyan: lightcyan;
+            --red: red;
+            --black: black;
+            --blue: blue;
+            --yellow: yellow;
+        }
         code {
             background-color: #f4f4f4;
             padding: 2px 4px;
             border-radius: 4px;
             font-family: 'Calibri', sans-serif;
         }
-        .colors {
-            --lightcyan: lightcyan;
-            --darkyellow: darkyellow;
-        }
     </style>
-
 </head>
-<body>
+<body class="colors">
     <h1><u><b>ProxMox - Self Host - Setup</b></u></h1>
-    <h2><b><u>After Installation</b></u></h2>
+    <h2><b>After Installation</b></h2>
     <ol>
         <li><b>Select Host</b></li>
-        <li><b>Go to <b><span style="color: var(--lightcyan)">Updates</span></b> > <b>Repositories</b></li>
+        <li><b>Go to <span style="color: var(--lightcyan)">Updates</span></b> > <b>Repositories</b></li>
         <li>Disable Enterprise Repositories (both or more if any)</li>
-        <li><b>Click on ADD</b></li>
-        <li><b>Select from drop down list No-Subscription</b></li>
-        <li><b>Click ADD</b></li>
+        <li><b>Click on <span style="color: var(--red)">ADD</span></b></li>
+        <li><b>Select from drop down list <span style="color: var(--blue)">No-Subscription</span></b></li>
+        <li><b>Click <span style="color: var(--yellow)">ADD</span></b></li>
         <li>Either from the <b>&gt;_Shell</b> or SSH into your host and go to Directory</li>
         <pre><code>sh
 /etc/apt/sources.list
@@ -38,7 +41,7 @@ deb http://download.proxmox.com/debian bookworm
         </code></pre>
         <li>Ctrl+S to Save the File</li>
         <li>Reload from your ProxMox GUI to see the changes.</li>
-        <li>Select Updates > Refresh and wait for it to finish then > Upgrade</li>
+        <li>Select <span style="color: var(--lightcyan)">Updates</span> > Refresh and wait for it to finish then > Upgrade</li>
     </ol>
 </body>
 </html>
