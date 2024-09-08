@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProxMox - Self Host - Setup</title>
+    <style>
+        /* Define a .colors class with CSS custom properties */
+        .colors {
+            --lightcyan: lightcyan;
+            --red: red;
+            --black: black;
+            --blue: blue;
+            --yellow: yellow;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: 'Calibri', sans-serif;
+        }
+    </style>
+</head>
+<body class="colors">
+    <h1><u><b>ProxMox - Self Host - Setup</b></u></h1>
+    <h2><u><b>After Installation</b></u></h2>
+    <ol>
+        <li><b>Select Host</b></li>
+        <li><b>Go to <span style="color: var(--lightcyan)">Updates</span></b> > <b>Repositories</b></li>
+        <li>Disable Enterprise Repositories (both or more if any)</li>
+        <li><b>Click on <span style="color: var(--red)">ADD</span></b></li>
+        <li><b>Select from drop down list <span style="color: var(--red)">No-Subscription</span></b></li>
+        <li><b>Click <span style="color: var(--yellow)">ADD</span></b></li>
+        <li>Either from the <b>&gt;_Shell</b> or SSH into your host and go to Directory</li>
+        <pre><code>sh
+/etc/apt/sources.list
+        </code></pre>
+        <li>Correct the existing entry as below</li>
+        <pre><code># non-production updates (unstable)
+deb http://download.proxmox.com/debian bookworm
+        </code></pre>
+        <li>Ctrl+S to Save the File</li>
+        <li>Reload from your ProxMox GUI to see the changes.</li>
+        <li>Select <span style="color: var(--lightcyan)">Updates</span> > Refresh and wait for it to finish then > Upgrade</li>
+    </ol>
+</body>
+</html>
