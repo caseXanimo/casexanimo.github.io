@@ -50,6 +50,11 @@ $${\color{orange}3.}$$ Click `Reload` in your Proxmox GUI to see the changes.
 
 $${\color{orange}4.}$$ Select $${\color{yellow}DISKS}$$ > $${\color{yellow}ZFS}$$ > `Create: ZFS`
 
+$${\color{orange}5.}$$ Name your Pool.
+
+$${\color{orange}6.}$$ Select the disks you want, and apply the RAID Level.
+ - $${\color{orange}6a.}$$ If not RAID then select Single Disk.
+
 
 # [Removing ProxMox Subscription Notice](https://www.reddit.com/r/Proxmox/comments/tgojp1/removing_proxmox_subscription_notice/)
 Author: [Roaster-Dude](https://www.reddit.com/user/Roaster-Dude/)
