@@ -9,19 +9,18 @@
             background-color: #f4f4f4;
             padding: 2px 4px;
             border-radius: 4px;
-            font-family: calibri;
+            font-family: 'Calibri', sans-serif;
         }
-        .cyan {
-            color: lightcyan;
+        .colors {
+            --lightcyan: lightcyan;
+            --darkyellow: darkyellow;
         }
     </style>
 
 </head>
 <body>
     <h1><u><b>ProxMox - Self Host - Setup</b></u></h1>
-    
-    <h2><b>After Installation</b></h2>
-    
+    <h2><b><u>After Installation</b></u></h2>
     <ol>
         <li><b>Select Host</b></li>
         <li>Go to <b><span class="cyan"> Updates</b></span> <b>Repositories</b></li>
