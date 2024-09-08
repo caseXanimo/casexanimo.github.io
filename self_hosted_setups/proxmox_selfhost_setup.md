@@ -46,6 +46,10 @@ ${\color{orange}2.}$ Type fdisk /dev/sd**X** - ${\color{red}where\space \color{w
  - $${\color{orange}2e.}$$ Use $${\color{yellow}W}$$ for updating the Partition Table.
  - $${\color{orange}2f.}$$ Use $${\color{yellow}Q}$$ for quitting the **FDISK** (if needed).
 
+$${\color{orange}3.}$$ Click `Reload` in your Proxmox GUI to see the changes.
+$${\color{orange}4.}$$ Select $${\color{yellow}DISKS}$$ > $${\color{yellow}ZFS}$$ > `Create: ZFS`
+
+
 # [Removing ProxMox Subscription Notice](https://www.reddit.com/r/Proxmox/comments/tgojp1/removing_proxmox_subscription_notice/)
 Author: [Roaster-Dude](https://www.reddit.com/user/Roaster-Dude/)
 
