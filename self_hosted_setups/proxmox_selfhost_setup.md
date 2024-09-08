@@ -46,6 +46,9 @@ ${\color{orange}2.}$ Type fdisk /dev/sd**X** - ${\color{red}where\space \color{w
  - ${\color{orange}2e.}$ Use ${\color{yellow}W\space \color{white}for\space updating\space the\space Partition\space Table.}$
  - ${\color{orange}2f.}$ Use ${\color{yellow}Q\space \color{white}for\space quitting\space the\space FDISK \space (if needed).}$
 
+ - <span style="color: orange;">2a.</span> Use <span style="color: yellow;">P</span> <span style="color: white;">for Partition.</span>
+
+
 # [Removing ProxMox Subscription Notice](https://www.reddit.com/r/Proxmox/comments/tgojp1/removing_proxmox_subscription_notice/)
 Author: [Roaster-Dude](https://www.reddit.com/user/Roaster-Dude/)
 
