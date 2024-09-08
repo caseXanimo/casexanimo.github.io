@@ -38,11 +38,9 @@ Author:[TechnoTim](https://technotim.live/posts/first-11-things-proxmox/)
 
 $${\color{orange}1.}$$ SSH into your ProxMox or use ***>_Shell***
 
-- $${\color{orange}2.}$$ Type fdisk /dev/sdX  *where* ***X*** *define the letter of the drive you want to clear*
-
- - $${\color{lightgreen}2a.}$$ Then use **P** for Partition.
-	
- - $${\color{lightgreen}2b.}$$ Then use **D** for Delete.
+$${\color{orange}2.}$$ Type fdisk /dev/sdX  *where* ***X*** *define the letter of the drive you want to clear*
+	- $${\color{lightgreen}2a.}$$ Then use **P** for Partition.
+	- $${\color{lightgreen}2b.}$$ Then use **D** for Delete.
 
 
 # [Removing ProxMox Subscription Notice](https://www.reddit.com/r/Proxmox/comments/tgojp1/removing_proxmox_subscription_notice/)
