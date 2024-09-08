@@ -39,10 +39,12 @@ Author: [TechnoTim](https://technotim.live/posts/first-11-things-proxmox/)
 ${\color{orange}1.}$ SSH into your ProxMox or use `>_Shell`
 
 ${\color{orange}2.}$ Type fdisk /dev/sd**X** - ${\color{red}where\space \color{white}X\space \color{red}define\space the\space letter\space of\space the\space drive\space you\space want\space to\space clear.}$
- - ${\color{orange}2a.}$ Then use ${\color{yellow}P\space \color{white}for Partition.}$
- - ${\color{orange}2b.}$ Then use ${\color{yellow}D\space \color{white}for Delete.}$
+ - ${\color{orange}2a.}$ Use ${\color{yellow}P\space \color{white}for Partition.}$
+ - ${\color{orange}2b.}$ Use ${\color{yellow}D\space \color{white}for Delete.}$
  - ${\color{orange}2c.}$ Select the number of the partition you want to delete.
- - ${\color{orange}2d.}$ Then use ${\color{yellow}P\space \color{white}for Partition.}$
+ - ${\color{orange}2d.}$ Use ${\color{yellow}P\space \color{white}for Partition again.}$
+ - ${\color{orange}2e.}$ Use ${\color{yellow}W\space \color{white}for updating the Partition Table.}$
+ - ${\color{orange}2f.}$ Use ${\color{yellow}Q\space \color{white}for quitting the FDISK.}$
 
 
 # [Removing ProxMox Subscription Notice](https://www.reddit.com/r/Proxmox/comments/tgojp1/removing_proxmox_subscription_notice/)
