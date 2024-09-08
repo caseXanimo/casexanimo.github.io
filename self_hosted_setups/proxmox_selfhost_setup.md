@@ -40,7 +40,7 @@ ${\color{orange}1.}$ SSH into your ProxMox or use `>_Shell`
 
 ${\color{orange}2.}$ Type fdisk /dev/sd**X** - ${\color{red}where\space \color{white}\mathbf{X}\space \color{red}define\space the\space letter\space of\space the\space drive\space you\space want\space to\space clear.}$
  - ${\color{lightgreen}2a.}$ Then use **P** for Partition.
- - ${\color{lightgreen}2b.}$ Then use **D** for Delete.
+ - ${\color{lightgreen}2b.}$ Then use ${\color{yellow}{mathbf{D}\space for Delete.}$
 
 
 # [Removing ProxMox Subscription Notice](https://www.reddit.com/r/Proxmox/comments/tgojp1/removing_proxmox_subscription_notice/)
