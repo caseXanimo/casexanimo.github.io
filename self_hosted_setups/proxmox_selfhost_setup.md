@@ -32,11 +32,11 @@ $${\color{orange}11.}$$ Select Updates > Refresh wait for it to finish then >_Up
 
 
 # [STORAGE](https://technotim.live/posts/first-11-things-proxmox/#storage)
-Author:[TechnoTim](https://technotim.live/posts/first-11-things-proxmox/)
+Author: [TechnoTim](https://technotim.live/posts/first-11-things-proxmox/)
 
 ## Create ZFS
 
-$${\color{orange}1.}$$ SSH into your ProxMox or use <b><i><font color="blue">>_Shell</font></i></b>
+$${\color{orange}1.}$$ SSH into your ProxMox or use $${\color{lightgreen}>_Shell}$$
 
 $${\color{orange}2.}$$ Type fdisk /dev/sdX - *where* ***X*** *define the letter of the drive you want to clear*
  - ${\color{lightgreen}2a.}$ Then use **P** for Partition.
