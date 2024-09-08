@@ -42,10 +42,9 @@ ${\color{orange}2.}$ Type fdisk /dev/sd**X** - ${\color{red}where\space \color{w
  - ${\color{orange}2a.}$ Use ${\color{yellow}P\space \color{white}for Partition.}$
  - ${\color{orange}2b.}$ Use ${\color{yellow}D\space \color{white}for Delete.}$
  - ${\color{orange}2c.}$ Select the number of the partition you want to delete.
- - ${\color{orange}2d.}$ Use ${\color{yellow}P\space \color{white}for Partition again.}$
- - ${\color{orange}2e.}$ Use ${\color{yellow}W\space \color{white}for updating the Partition Table.}$
- - ${\color{orange}2f.}$ Use ${\color{yellow}Q\space \color{white}for quitting the FDISK.}$
-
+ - ${\color{orange}2d.}$ Use ${\color{yellow}P\space \color{white}for\space Partition\space again.}$
+ - ${\color{orange}2e.}$ Use ${\color{yellow}W\space \color{white}for\space updating\space the\space Partition\space Table.}$
+ - ${\color{orange}2f.}$ Use ${\color{yellow}Q\space \color{white}for\space quitting\space the\space FDISK.}$
 
 # [Removing ProxMox Subscription Notice](https://www.reddit.com/r/Proxmox/comments/tgojp1/removing_proxmox_subscription_notice/)
 Author: [Roaster-Dude](https://www.reddit.com/user/Roaster-Dude/)
