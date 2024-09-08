@@ -47,6 +47,7 @@ ${\color{orange}2.}$ Type fdisk /dev/sd**X** - ${\color{red}where\space \color{w
  - $${\color{orange}2f.}$$ Use $${\color{yellow}Q}$$ for quitting the **FDISK** (if needed).
 
 $${\color{orange}3.}$$ Click `Reload` in your Proxmox GUI to see the changes.
+
 $${\color{orange}4.}$$ Select $${\color{yellow}DISKS}$$ > $${\color{yellow}ZFS}$$ > `Create: ZFS`
 
 
