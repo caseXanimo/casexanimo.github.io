@@ -23,7 +23,7 @@
     <h2><b><u>After Installation</b></u></h2>
     <ol>
         <li><b>Select Host</b></li>
-        <li>Go to <b><span class="cyan"> Updates</b></span> <b>Repositories</b></li>
+        <li><b>Go to <b><span style="color: var(--lightcyan)">Updates</span></b> > <b>Repositories</b></li>
         <li>Disable Enterprise Repositories (both or more if any)</li>
         <li><b>Click on ADD</b></li>
         <li><b>Select from drop down list No-Subscription</b></li>
